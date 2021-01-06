@@ -7,7 +7,7 @@ public class items{
   private String names;
   private double total;
   private ArrayList<cart> ordercart; 
-public cart(String name){
+public items(String name){
   this.names = name;
   this.total = 0;
   ordercart= new ArrayList<cart>();
