@@ -6,7 +6,7 @@ public class main{
 
   System.out.println("Hollister");
   System.out.println("Shirts:");
-  System.out.println("shirts: blue, green, red");
+  System.out.println("tshirts: blue, green, red");
   System.out.println("In stock: 10 of each color");
   System.out.println("$8");
   System.out.println("Pants:");
@@ -14,6 +14,7 @@ public class main{
   System.out.println("In stock: 10 of each color");
   System.out.println("$15");
   System.out.println("Sweater:")
-  System.out.println("hoodie: black,green,white")
+  System.out.println("hoodies: black,green,white")
+  
   }
 }
