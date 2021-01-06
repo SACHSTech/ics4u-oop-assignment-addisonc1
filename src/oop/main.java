@@ -13,8 +13,8 @@ public class main{
   System.out.println("joggers: grey,black,white,");
   System.out.println("In stock: 10 of each color");
   System.out.println("$15");
-  System.out.println("Sweater:")
-  System.out.println("hoodies: black,green,white")
+  System.out.println("Sweater:");
+  System.out.println("hoodies: black,green,white");
   
   }
 }

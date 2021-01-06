@@ -4,12 +4,18 @@ import java.io.*;
 
 public class pants extends cart{
 private String color;
-public pants (String strclothing,String strcolor,double dblprice){
- super(strclothing);
+private double stockstock;
+private String clothing;
+public pants (String name,String typeclothing,String strclothing,String strcolor,double dblprice,double stock){
+ super(name,typeclothing);
+ this.clothing = strclothing;
  this.strcolor = color;
+ this.stockstock = stock;
 
 }
-  
+public double getstock(){
+  return this.stockstock;
+}
 
   
   
