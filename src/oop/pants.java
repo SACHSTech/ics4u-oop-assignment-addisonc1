@@ -1,9 +1,12 @@
-
+package oop;
+import oop.*;
 import java.io.*;
 
 public class pants{
-
-public pants (String strtypepants,double dblprice){
+private String color;
+public pants (String strclothing,String strcolor,double dblprice){
+ super(strclothing);
+ this.strcolor = color;
 
 }
   
