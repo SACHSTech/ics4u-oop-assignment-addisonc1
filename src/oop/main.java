@@ -15,6 +15,6 @@ public class main{
   System.out.println("$15");
   System.out.println("Sweater:");
   System.out.println("hoodies: black,green,white");
-  
+  System.out.println("$20")
   }
 }

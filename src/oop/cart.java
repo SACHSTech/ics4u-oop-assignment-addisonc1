@@ -2,13 +2,8 @@ package oop;
 import oop.*;
 
 public class cart{
-  private String names;
-  private double total;
 
-public cart(String name){
-  this.names = name;
-  this.total = 0;
-}
+  public void addtocart();
 /*
 public void total(){
   int intcount;
