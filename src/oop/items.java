@@ -23,7 +23,10 @@ public void removecart(cart previouscart){
       ordercart.remove(intcount);
     }
   }
-
+ 
+}
+public String getemail(){
+  return this.emails;
 }
 public void totals(){
   int intcount;
