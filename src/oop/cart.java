@@ -42,4 +42,6 @@ public abstract double getstock();
 * an abstract method that gets from the child class which it gets the color of the item from the child class
 */
 public abstract String getcolor();
+
+public abstract void getcartitems();
 }

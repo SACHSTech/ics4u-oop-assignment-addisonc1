@@ -62,4 +62,12 @@ public sweaters (String name ,String strclothing2,String strcolor2,double stock2
     return this.price;
 }
 
+/**
+* A description of your method
+*
+* @return getcartitems which gets the current items in the cart
+*/
+  public void getcartitems(){
+    System.out.println(super.getname()+"");
+  }
 }

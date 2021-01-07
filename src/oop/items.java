@@ -70,4 +70,16 @@ public void gettotals(){
   System.out.println("tax: "+ Math.round((total*0.13)*100/100));
   System.out.println("total: "+ Math.round((total*1.13)*100)/100);
 }
+
+/**
+* A description of your method
+*
+* this would give what is in your cart right now
+*/
+public void getcartitems(){
+  int intcount;
+  for(intcount = 0;intcount< ordercart.size();intcount++){
+    ordercart.get(intcount).getcartitems();
+  }
+}
 }

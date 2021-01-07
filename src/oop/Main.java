@@ -41,7 +41,7 @@ public class Main{
   
     addison.addtocart(whitejoggers);
     addison.addtocart(blacksweaters);
-    addison.removecart(blacksweaters);
+    addison.getcartitems();
     addison.gettotals();
   }
   
