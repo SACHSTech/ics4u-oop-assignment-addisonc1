@@ -30,6 +30,8 @@ public sweaters (String name ,String strclothing2,String strcolor2,double stock2
  
  if (clothing.equals("hoodie")){
     price = 20;
+ }else if (clothing.equals("christmassweater")){
+   price = 25;
  }
 }
 

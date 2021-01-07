@@ -31,6 +31,8 @@ public class shirts extends cart{
     
     if (clothing.equals("tshirt")){
     price = 8;
+ }else if (clothing.equals("longsleeveshirt")){
+   price = 10;
  }
 }
   

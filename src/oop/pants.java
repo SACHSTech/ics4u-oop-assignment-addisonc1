@@ -31,6 +31,8 @@ public class pants extends cart{
     if (clothing.equals("joggers")){
     price = 15;
    
+ }else if (clothing.equals("jeans")){
+   price = 18;
  }
 }
  

@@ -13,28 +13,34 @@ public class Main{
     System.out.println("Joggers");
     System.out.println("Color: white,black,green");
     System.out.println("Stock:10");
+    System.out.println("price:$15");
     System.out.println("");
     System.out.println("Jeans");
     System.out.println("Color: Blue");
     System.out.println("Stock:10");
+    System.out.println("price:$17");
     System.out.println("");
     System.out.println("Shirts:");
     System.out.println("Tshirt");
     System.out.println("Color:black,grey,white");
     System.out.println("Stock:10");
+    System.out.println("price: $8");
     System.out.println("");
     System.out.println("Longsleeve Shirt");
     System.out.println("Color:white");
     System.out.println("Stock:10");
+    System.out.println("price:$10");
     System.out.println("");
     System.out.println("Sweaters:");
     System.out.println("hoodies");
     System.out.println("Color:black,white,blue");
     System.out.println("Stock:10");
+    System.out.println("price:$20");
     System.out.println("");
     System.out.println("Christmas Sweater");
     System.out.println("Color:Christmas");
     System.out.println("Stock:10");
+    System.out.println("price:$25");
     System.out.println("");
     
     //all items
