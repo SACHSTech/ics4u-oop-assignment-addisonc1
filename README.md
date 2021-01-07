@@ -4,7 +4,7 @@
 [*see instructions for details*](Instructions.md)
 
 *Insert Class Diagram here*  
-![alt text](https://github.com/SACHSTech/ics4u-oop-assignment-addisonc1/blob/main/src/download%20(1).png "graph")
+![alt text](https://github.com/SACHSTech/ics4u-oop-assignment-addisonc1/blob/main/src/yo.png "graph")
 ## Summary
 *Include a brief summary that describes your system that your are modelling*
 
