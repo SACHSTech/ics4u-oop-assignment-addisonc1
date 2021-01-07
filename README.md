@@ -7,7 +7,9 @@
 ![alt text](https://github.com/SACHSTech/ics4u-oop-assignment-addisonc1/blob/main/src/download%20(1).png "graph")
 ## Summary
 *Include a brief summary that describes your system that your are modelling*
+
 ##Summary
+
 *Im modeling a system of a online clothing shop 
 *The site is using a shopping cart system which you can enter in items that are aviable on the store
 * this system also calculates for the subtotal, tax,and the total for all items when in the shopping cart.
