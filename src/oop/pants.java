@@ -57,7 +57,6 @@ public class pants extends cart{
 *
 * @return price returns the price of the product
 */
-
   public double getprice(){
     return this.price;
 }

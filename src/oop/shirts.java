@@ -4,16 +4,15 @@ import java.io.*;
 /**
 * A description of your method
 *
-*
+*Another child class for the parent class cart this file also makes the object shirts into one
 * @author Addison Chan
 */
 
 public class shirts extends cart{
-
+  //varaibles
   private String color;
   private double stockstock;
   private String clothing;
- 
   private double price;
  /**
 * A description of your method
@@ -21,7 +20,7 @@ public class shirts extends cart{
 * @param name the name of the shirt type
 * @param strclothing3 the type clothing 
 * @param strcolor3 the color of the product
-* @param stock3 the 
+* @param stock3 the stock of the product
 */
 
   public shirts (String name ,String strclothing3, String strcolor3,double stock3){
@@ -39,7 +38,7 @@ public class shirts extends cart{
 /**
 * A description of your method
 *
-* @return description of the return value
+* @return stockstock returns the stock number
 */
   public double getstock(){
     return this.stockstock;
@@ -47,7 +46,7 @@ public class shirts extends cart{
 /**
 * A description of your method
 *
-* @return description of the return value
+* @return color returns the color of the product
 */
 
   public String getcolor(){
@@ -56,7 +55,7 @@ public class shirts extends cart{
 /**
 * A description of your method
 *
-* @return description of the return value
+* @return price returns the price of the item
 */
 
   public double getprice(){
