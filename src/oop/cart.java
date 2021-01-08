@@ -36,6 +36,10 @@ public abstract double getprice();
 * an abstract method that gets from the child class which it gets the color of the item from the child class
 */
 public abstract String getcolor();
-
+/**
+* A description of your method
+*
+* an abstract method that gets from the child class which it gets the item name and price  from the child class
+*/
 public abstract void getcartitems();
 }
