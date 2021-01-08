@@ -11,9 +11,9 @@ import java.io.*;
 public class shirts extends cart{
   //varaibles
   private String color;
-  private double stockstock;
+  
   private String clothing;
-  private double price;
+  private double price1;
  /**
 * A description of your method
 *
@@ -23,28 +23,17 @@ public class shirts extends cart{
 * @param stock3 the stock of the product
 */
 
-  public shirts (String name ,String strclothing3, String strcolor3,double stock3){
+  public shirts (String name ,String strclothing, String strcolor,double price){
     super(name);
-    this.clothing = strclothing3;
-    this.color = strcolor3;
-    this.stockstock = stock3;
-    
-    if (clothing.equals("tshirt")){
-    price = 8;
- }else if (clothing.equals("longsleeveshirt")){
-   price = 10;
- }
+    this.clothing = strclothing;
+    this.color = strcolor;
+    ;
+    this.price1=price;
+  
 }
   
 
-/**
-* A description of your method
-*
-* @return stockstock returns the stock number
-*/
-  public double getstock(){
-    return this.stockstock;
-}
+
 /**
 * A description of your method
 *
@@ -61,15 +50,15 @@ public class shirts extends cart{
 */
 
   public double getprice(){
-    return this.price;
+    return this.price1;
 }
 
 /**
 * A description of your method
 *
-* @return getcartitems which gets the current items in the cart
+* @return getcartitems which gets the current items in the cart and the price
 */
   public void getcartitems(){
-    System.out.println(super.getname()+"");
+    System.out.println(super.getname()+" $"+this.price1);
   }
 }

@@ -29,12 +29,6 @@ public String getname(){
 */
 public abstract double getprice();
 
-/**
-* A description of your method
-*
-* an abstract method that gets from the child class which then they would get the stock number
-*/
-public abstract double getstock();
 
 /**
 * A description of your method

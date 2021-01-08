@@ -13,7 +13,7 @@ public class sweaters extends cart{
 private String color;
 private double stockstock;
 private String clothing;
-private double price;
+private double price1;
 
 /* A description of your method
 *
@@ -22,29 +22,18 @@ private double price;
 * @param strcolor2 the color of the product
 * @param stock2 the stock of the product
 */
-public sweaters (String name ,String strclothing2,String strcolor2,double stock2){
+public sweaters (String name ,String strclothing,String strcolor,double price){
  super(name);
- this.clothing = strclothing2;
- this.color = strcolor2;
- this.stockstock = stock2;
+ this.clothing = strclothing;
+ this.color = strcolor;
  
- if (clothing.equals("hoodie")){
-    price = 20;
- }else if (clothing.equals("christmassweater")){
-   price = 25;
- }
+ this.price1=price;
+ 
+ 
 }
 
 
-/**
-* A description of your method
-*
-* @return stockstock returns the stock number
-*/
 
-  public double getstock(){
-    return this.stockstock;
-}
 /**
 * A description of your method
 *
@@ -61,15 +50,15 @@ public sweaters (String name ,String strclothing2,String strcolor2,double stock2
 */
 
   public double getprice(){
-    return this.price;
+    return this.price1;
 }
 
 /**
 * A description of your method
 *
-* @return getcartitems which gets the current items in the cart
+* @return getcartitems which gets the current items in the cart and the price
 */
   public void getcartitems(){
-    System.out.println(super.getname()+"");
+    System.out.println(super.getname()+" $"+this.price1);
   }
 }

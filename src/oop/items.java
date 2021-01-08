@@ -26,6 +26,22 @@ public items(String email){
 /**
 * A description of your method
 *
+* @param getemail gets the email of the shopper
+*/
+public String getemail(){
+  return this.emails;
+}
+/**
+* A description of your method
+*
+* @param email prints out the shoppers email
+*/
+public void email(){
+  System.out.println(this.emails);
+}
+/**
+* A description of your method
+*
 * @param newcartitem this would add into the array list which would put it into the cart
 */
 public void addtocart(cart newcartitem){
@@ -69,6 +85,7 @@ public void gettotals(){
   System.out.println("subtotal: "+ Math.round((total)*100/100));
   System.out.println("tax: "+ Math.round((total*0.13)*100/100));
   System.out.println("total: "+ Math.round((total*1.13)*100)/100);
+  System.out.println(" ");
 }
 
 /**
@@ -82,4 +99,5 @@ public void getcartitems(){
     ordercart.get(intcount).getcartitems();
   }
 }
+
 }
